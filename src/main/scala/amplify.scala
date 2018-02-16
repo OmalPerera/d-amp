@@ -6,7 +6,7 @@ object amplify {
   def main(args: Array[String]): Unit = {
 
     val numberOfRecordsWanted: Int = 400
-    val numberOfVariables: Int = 89
+    val numberOfVariables: Int = 10
     val matrix = Array.ofDim[Int](numberOfRecordsWanted, numberOfVariables)
     var x: Int = 0
     var y: Int = 0
